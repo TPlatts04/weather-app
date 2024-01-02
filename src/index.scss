@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100;300;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100;300;500;700&display=swap');
+
 * {
   font-family: "Manrope", monospace, sans-serif;
 }
+
 
 .wrapper {
   display: flex;
@@ -27,27 +29,27 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 600px;
+  height:600px;
   background: linear-gradient(to right bottom, #C5FFF8, #96EFFF, #5FBDFF, #7B66FF);
   border-radius: 25px;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9);
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.9);
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
 }
 
 .search-bar {
   display: flex;
   align-items: center;
   position: relative;
-}
-.search-bar .btn {
-  background-color: rgb(184, 184, 184);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
-}
-.search-bar .search-place {
-  padding: 3px;
-  font-size: 16px;
-  font-weight: 600;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  .btn {
+    background-color: rgb(184, 184, 184);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+  }
+  .search-place {
+    padding: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+  }
 }
 
 .weather-main {
@@ -56,27 +58,31 @@
   position: relative;
   align-items: center;
   justify-content: center;
-}
-.weather-main .weather-icon {
-  margin-bottom: 20px;
-  width: 75px;
-}
-.weather-main .weather-temp {
-  text-align: center;
+
+  .weather-icon {
+    margin-bottom: 20px;
+    width: 75px;
+  }
+
+  .weather-temp {
+    text-align: center;
+  }
 }
 
 .weather-side {
   position: relative;
   top: 50px;
-}
-.weather-side .humidity, .weather-side .wind-speed {
-  font-size: 25px;
-}
-.weather-side .wind-speed {
-  width: 100%;
+
+  .humidity, .wind-speed{
+    font-size: 25px;;
+  }
+
+  .wind-speed {
+    width: 100%;
+  }
 }
 
-.supscript {
+.supscript{
   font-size: 25px;
   font-weight: 800;
   margin: 0px;
@@ -92,5 +98,5 @@ sup {
   background-color: black;
   color: white;
   position: relative;
-  opacity: 0.7;
-}/*# sourceMappingURL=index.css.map */
+  opacity: 0.7
+}
