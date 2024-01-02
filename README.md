@@ -1,3 +1,9 @@
+# Project Overview
+
+This project is a simple weather application which uses an API Key from the OpenWeatherAPI website. NOTE: **I HAVE UPDATED MY CURRENT API KEY SO IT IS NOT THE ONE IN THE CODE**. This project was created with react as you are able to view the rest of the readme.md below.
+This project was created with: HTML5, SASS/CSS3, JS, Jquery, BootStrap and React.JS.
+Throughout the code there are multiple uses of Async Functions, fetch, jquery edits etc. This project was made to improve my knowledge upon these languages and also was uploaded here as part of a portfolio.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
