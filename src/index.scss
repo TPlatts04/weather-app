@@ -69,6 +69,17 @@
   }
 }
 
+@media (max-width: 580px) {
+  .container {
+    height: 800px;
+    width: 80%;
+  }
+
+  .title {
+    top: -50px;
+  }
+}
+
 .weather-side {
   position: relative;
   top: 50px;
