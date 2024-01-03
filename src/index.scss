@@ -80,6 +80,12 @@
   }
 }
 
+@media (min-width: 1100px) {
+  .container {
+    width: 35%;
+  }
+}
+
 .weather-side {
   position: relative;
   top: 50px;
